@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+html {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+/**
+ * To animate the popovers.
+ */
+.v-enter-active,
+.v-leave-active {
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0ms, opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.v-enter-from,
+.v-leave-to {
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0ms, opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    opacity: 0;
+}

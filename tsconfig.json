@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "module": "es6",
+        "target": "es5"
+    }
+}
